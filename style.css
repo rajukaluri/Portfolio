@@ -1,0 +1,100 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .hero {
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .hero h1 span {
+    color: #ffe600;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Sections */
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #222;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Projects */
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .project > div {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color:black;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #ffe600;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
